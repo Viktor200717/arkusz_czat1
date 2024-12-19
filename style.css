@@ -1,0 +1,75 @@
+body
+{
+    font-family: Garamond,serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+}
+header
+{
+ background-color: tomato;
+ color: white;
+ text-align: center;
+ padding: 10px 0;
+ font-size: 24px;
+}
+main
+{
+display: flex;
+margin: 10px auto;
+width: 90%;
+}
+#blok-glowny
+{
+    flex: 3;
+    border: 1px solid tomato;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    min-height: 500px;
+}
+.wiadomosc
+{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+#jolanta
+{
+    background-color: #EEE;
+    justify-content: flex-start;
+}
+#krzystof
+{
+    background-color: #CCC;
+}
+.wiadomosc img
+{
+ width: 50px;
+ border-radius: 50%;
+ height: 50px;
+ margin: 0 10px;
+}
+.wiadomosc p
+{
+  margin: 0;
+  font-size: 16px;
+}
+.input-blok button
+{
+ background-color: tomato;
+ color: white;
+ border: none;
+ margin-left: 5px;
+ padding: 5px 10px;
+ cursor: pointer;
+ border: 1px solid DarkRed;
+}
+.profil
+{ width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    margin: 5px 0;
+}
